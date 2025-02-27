@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const temperatureDisplay = document.getElementById("temperature");
     const descriptionDisplay = document.getElementById("description");
     const errorMessage = document.getElementById("error-message");
-    const API_KEY = "85ae9b277cd928ab9cfc07ed63122112";
+    const API_KEY = "85ae9b277cd928ab9cfc07ed63122112";//this was a temporary api key.You have to edit this using your api_key.....
 
     getWeatherBtn.addEventListener('click', async () => {
         const city = cityInput.value.trim();  // Fix: Corrected the way input value is fetched
